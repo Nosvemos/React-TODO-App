@@ -21,10 +21,23 @@ function App() {
     setTodos(afterProcessTodos)
   }
 
+  const editTodoById = (id, newTodo) => {
+    const updatedTodos = todos.map((todo) => {
+      if (todo.id === id){
+        return {
+          id,
+          todo:newTodo
+        }
+      }
+      return todo
+    })
+    setTodos(updatedTodos)
+  }
+
   return (
     <div className="container-fluid">
       <TodoCreate onCreate={createTodo}/>
-      <TodoList todos={todos} onDelete={deleteTodoById}/>
+      <TodoList todos={todos} onDelete={deleteTodoById} onEdit={editTodoById}/>
     </div>
   )
 }
