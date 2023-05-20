@@ -1,9 +1,9 @@
 # React-TODO-App
 
-### Screenshot
-![Example Image 1](1.png)
-![Example Image 2](2.png)
-![Example Image 3](3.png)
+### Screenshots
+![ExampleImage1](example1.png)
+![ExampleImage2](example2.png)
+![ExampleImage3](example3.png)
 
 
 ### Setup Project
