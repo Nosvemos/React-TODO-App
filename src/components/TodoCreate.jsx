@@ -14,7 +14,7 @@ function TodoCreate({onCreate}) {
 
     return (
         <div className="Todo-Create">
-            <h1 className="p-6 text-4xl text-center font-extrabold text-gray-900 md:text-4xl lg:text-5xl"><span className="text-transparent bg-clip-text bg-gradient-to-r to-gray-200 from-sky-400">TODO App</span></h1>
+            <h1 className="p-10 text-4xl text-center font-extrabold text-gray-900 md:text-4xl lg:text-5xl"><span className="text-transparent bg-clip-text bg-gradient-to-r to-gray-200 from-sky-400">TODO App</span></h1>
             <div className="grid grid-cols-12">
                 <div className="col-start-2 col-end-12 md:col-start-3 md:col-end-11 xl:col-start-4 xl:col-end-10">
                     <form onSubmit={handleSubmit} className="flex items-center">
